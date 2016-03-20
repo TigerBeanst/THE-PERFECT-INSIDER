@@ -1,12 +1,11 @@
-Hodor
-=====
-This module turns (almost) everything into Hodor. Hodor. Hodor Hodor Hodor,
-Hodor. Hodor.
+全部成为F
+===
+此模块会将几乎所有的文本转为FFF。
+此模块基于Hodor模块。
 
-Hodor
-=====
-http://repo.xposed.info/module/com.germainz.hodor
 
-Hodor Hodor
-===========
-http://forum.xda-developers.com/xposed/modules/hodor-t2788452
+
+THE-PERFECT-INSIDER
+=====
+This module turns (almost) everything into FFF. 
+And It is based on the model Hodor.
