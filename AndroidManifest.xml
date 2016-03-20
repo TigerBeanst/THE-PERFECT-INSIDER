@@ -6,7 +6,7 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
-    <application android:icon="@drawable/ic_launcher" android:label="@string/fff">
+    <application android:icon="@mipmap/ic_launcher" android:label="@string/fff">
 
         <meta-data
             android:name="xposedmodule"
