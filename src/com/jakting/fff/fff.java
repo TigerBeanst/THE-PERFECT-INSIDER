@@ -1,4 +1,4 @@
-package com.germainz.hodor;
+package com.jakting.fff;
 
 import android.graphics.Paint;
 import android.widget.TextView;
@@ -8,7 +8,7 @@ import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
 import de.robv.android.xposed.IXposedHookZygoteInit;
 import de.robv.android.xposed.XC_MethodHook;
 
-public class Hodor implements IXposedHookZygoteInit {
+public class fff implements IXposedHookZygoteInit {
 
     // Hodor
     private static final String HODOR = "FFF";
