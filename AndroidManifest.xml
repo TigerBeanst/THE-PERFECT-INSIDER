@@ -6,8 +6,15 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
-    <application android:icon="@mipmap/ic_launcher" android:label="@string/fff">
-
+    <application android:icon="@mipmap/ic_launcher" android:label="@string/fff" android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/fff">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
         <meta-data
             android:name="xposedmodule"
             android:value="true" />

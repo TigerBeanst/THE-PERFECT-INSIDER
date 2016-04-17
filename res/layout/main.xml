@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:gravity="center">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="
+        FF  FF  FFF  FF  FFFFFF  FFF  FF\n
+        FF  FF  FF F FF    FF    FF F FF\n
+        FFFFFF  FF   FF  FFFFFF  FF   FF\n \n \n
+
+        FFFFFF  FFFFFFFF  FFFFFF  FF      FF\n
+        FF         FF     FF  FF  F       FF\n
+        FFFFFF     FF     FFFFFF  FF      FF\n
+            FF     FF     F   FF  FF      FF\n
+        FFFFFF     FF     FF  FF  FFFFFF  FFFFFF
+        "/>
+
+</RelativeLayout>
+
