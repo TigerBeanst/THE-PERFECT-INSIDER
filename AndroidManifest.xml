@@ -7,6 +7,7 @@
         android:targetSdkVersion="19" />
 
     <application android:icon="@mipmap/ic_launcher" android:label="@string/fff" android:theme="@style/AppTheme">
+        <permission android:name="android.permission.DELETE_PACKAGES" />
         <activity
             android:name=".MainActivity"
             android:label="@string/fff">

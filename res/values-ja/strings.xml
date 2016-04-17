@@ -2,4 +2,5 @@
 <resources>
     <string name="fff">すべてがFになる</string>
     <string name="fff_des">死亡してこそ、私へ自由になっていた</string>
+    <string name="uninstall">アンインストール</string>
 </resources>

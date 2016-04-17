@@ -8,17 +8,9 @@
 	<Button
 		android:layout_height="wrap_content"
 		android:layout_width="wrap_content"
-		android:text="
-        FF  FF  FFF  FF  FFFFFF  FFF  FF\n
-        FF  FF  FF F FF    FF    FF F FF\n
-        FFFFFF  FF   FF  FFFFFF  FF   FF\n \n \n
-
-        FFFFFF  FFFFFFFF  FFFFFF  FF      FF\n
-        FF         FF     FF  FF  F       FF\n
-        FFFFFF     FF     FFFFFF  FF      FF\n
-            FF     FF     F   FF  FF      FF\n
-        FFFFFF     FF     FF  FF  FFFFFF  FFFFFF
-        "/>
+		android:text="@string/uninstall"
+        android:gravity="center_vertical"
+		android:id="@+id/uninstall"/>
 
 </RelativeLayout>
 
