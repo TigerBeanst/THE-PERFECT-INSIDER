@@ -1,44 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_height="match_parent"
 	android:layout_width="match_parent"
+	android:layout_height="match_parent"
 	android:gravity="center">
 
-	<Button
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="@string/uninstall"
-		android:id="@+id/uninstall"/>
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/ly1"
+		android:gravity="center">
 
-	<RadioGroup
-		android:layout_width="65dp"
-		android:layout_height="wrap_content"
-		android:id="@+id/changetext"
-		android:orientation="vertical">
-
-		<RadioButton
+		<TextView
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:id="@+id/changefff"
-			android:text="@string/changefff"
-			android:onClick="onRadioButtonClicked"/>
+			android:text="@string/customText"
+			android:id="@+id/textview"
+			android:layout_alignRight="@+id/customTest"
+			android:layout_alignEnd="@+id/customTest"
+			android:layout_alignLeft="@+id/customTest"
+			android:layout_alignStart="@+id/customTest"
+			android:gravity="center"/>
 
-		<RadioButton
+		<EditText
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/customText"
+			android:layout_below="@id/textview"
+			android:hint="@string/fffde"
+			android:gravity="center"/>
+
+		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:id="@+id/changesss"
-			android:text="@string/changesss"
-			android:onClick="onRadioButtonClicked"/>
+			android:id="@+id/saveText"
+			android:text="@string/saveButton"
+			android:layout_below="@id/customText"
+			android:layout_alignRight="@id/customText"
+			android:layout_alignEnd="@id/customText"
+			android:layout_alignLeft="@id/customText"
+			android:layout_alignStart="@id/customText"/>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reText"
+            android:text="@string/reButton"
+            android:layout_below="@id/saveText"
+            android:layout_alignRight="@id/saveText"
+            android:layout_alignEnd="@id/saveText"
+            android:layout_alignLeft="@id/saveText"
+			android:layout_alignStart="@id/saveText"/>
 
-	</RadioGroup>
+	</RelativeLayout>
 
-	<TextView
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="辣鸡"
-        android:id="@+id/text"
-		android:layout_gravity="bottom"/>
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:gravity="center|bottom">
 
-</LinearLayout>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/about"
+			android:id="@+id/about"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/uninstall"
+			android:id="@+id/uninstall"
+			android:layout_below="@id/about"
+            android:layout_alignRight="@id/about"
+            android:layout_alignEnd="@id/about"
+            android:layout_alignLeft="@id/about"
+			android:layout_alignStart="@id/about"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>
 

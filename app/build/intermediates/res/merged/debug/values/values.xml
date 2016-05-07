@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changefff">F</string>
-    <string name="changesss">S</string>
+    <string name="customText">自定义文本：</string>
     <string name="fff">全部成为F</string>
     <string name="fff_des">死亡，才能通往我想要的自由。</string>
     <string name="uninstall">卸载</string>

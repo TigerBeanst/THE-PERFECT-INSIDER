@@ -1,30 +1,60 @@
 package com.jakting.fff;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.CompoundButton;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
+import android.widget.EditText;
 import android.widget.Toast;
-
-import com.jakting.fff.MainActivity;
-import android.widget.TextView;
 
 
 public class MainActivity extends Activity
 {
-    @Override
-   private String fff;
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         clickUninstall();
+        saveCustom();
+        reCustom();
     }
+    public void saveCustom(){
+        findViewById(R.id.saveText).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText customText = (EditText)findViewById(R.id.customText);
+                String fffText = customText.getText().toString();
+                if (fffText.isEmpty()) {
+                    Toast.makeText(MainActivity.this, getString(R.string.emptyText), Toast.LENGTH_SHORT).show();
+                    return;
+                } 
+                    SharedPreferences.Editor editor = getSharedPreferences("pref", MODE_WORLD_READABLE).edit();
+                    editor.putString("fffcustomText", fffText);
+                    editor.commit();
+                    Toast.makeText(MainActivity.this,getString(R.string.saveText1)+fffText+getString(R.string.saveText2),Toast.LENGTH_LONG).show();
+                
+            }
+        });
+    }
+    
+    public void reCustom(){
+        findViewById(R.id.reText).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String fffText = "FFF"; 
+                    SharedPreferences.Editor editor = getSharedPreferences("pref", MODE_WORLD_READABLE).edit();
+                    editor.putString("fffcustomText", fffText);
+                    editor.commit();
+                    Toast.makeText(MainActivity.this,getString(R.string.saveText1)+fffText+getString(R.string.saveText2),Toast.LENGTH_LONG).show();
+
+                }
+            });
+
+
+    }
+    
     public void clickUninstall(){
         findViewById(R.id.uninstall).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,29 +64,5 @@ public class MainActivity extends Activity
                 startActivity(intent);
             }
         });
-    }
-    public void onRadioButtonClicked(View view) {
-        String tip;
-        TextView text=(TextView) findViewById(R.id.text);
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
-
-        // Check which radio button was clicked
-        switch(view.getId()) {
-            case R.id.changefff:
-                if (checked)
-                    Toast.makeText(MainActivity.this, "辣鸡F", Toast.LENGTH_SHORT).show();
-                    tip="重启后您的手机将会全是F";
-                    fff="FFF";
-                text.setText("重启后您的手机将会全是F");
-                break;
-            case R.id.changesss:
-                if (checked)
-                    Toast.makeText(MainActivity.this, "辣鸡S", Toast.LENGTH_SHORT).show();
-                    tip="重启后您的手机将会全是S";
-                    fff="SSS";
-                text.setText("重启后您的手机将会全是S");
-                    break;
-        }
     }
 }

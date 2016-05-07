@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:id="@+id/ly1">
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/customText"/>
+	<EditText
+		android:layout_width="100dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/customTest"/>
+</LinearLayout>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/saveText"/>
+</LinearLayout>
 <LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_height="match_parent"
 	android:layout_width="match_parent"
-	android:gravity="center">
-
+	android:gravity="center|bottom"
+	android:id="@+id/ly2">
 	<Button
 		android:layout_height="wrap_content"
 		android:layout_width="wrap_content"
 		android:text="@string/uninstall"
-		android:id="@+id/uninstall" />
-
-	<RadioGroup
-		android:layout_width="65dp"
-		android:layout_height="wrap_content"
-		android:id="@+id/changetext"
-		android:orientation="vertical">
-		<RadioButton
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:id="@+id/allfff"
-			android:text="@string/changefff"/>
-		<RadioButton
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:id="@+id/radio_ninjas"
-			android:text="@string/changesss"/>
-	</RadioGroup>
-
+		android:id="@+id/uninstall"/>
 </LinearLayout>
-
+</RelativeLayout>
