@@ -8,6 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.app.AlertDialog;
+import android.view.View.OnClickListener;
+import android.content.DialogInterface;
 
 
 public class MainActivity extends Activity
@@ -19,6 +25,33 @@ public class MainActivity extends Activity
         clickUninstall();
         saveCustom();
         reCustom();
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater=getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.about_menu:
+                openAboutFFF();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+    public void openAboutFFF(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setTitle("测试关于");
+        builder.setMessage("呵呵");
+        builder.setPositiveButton("确定", new DialogInterface.OnClickListener(){
+
+                @Override
+                public void onClick(DialogInterface p1, int p2)
+                {
+                    Toast.makeText(this,"FFFFFF！",Toast.LENGTH_LONG).show();
+                }
+            });
     }
     public void saveCustom(){
         findViewById(R.id.saveText).setOnClickListener(new View.OnClickListener() {

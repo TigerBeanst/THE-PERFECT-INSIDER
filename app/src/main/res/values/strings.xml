@@ -12,4 +12,5 @@
     <string name="saveText1">已修改为 </string>
     <string name="saveText2"> ！激活模块后重启生效！</string>
     <string name="reText">重置文本为FFF完成！\n重启后生效！</string>
+    <string name="about_menu">关于</string>
 </resources>
