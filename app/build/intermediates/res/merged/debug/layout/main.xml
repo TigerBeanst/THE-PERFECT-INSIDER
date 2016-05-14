@@ -4,39 +4,79 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:gravity="center">
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:gravity="center"
-	android:layout_height="match_parent"
-	android:layout_width="match_parent"
-	android:id="@+id/ly1">
-	<TextView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="@string/customText"/>
-	<EditText
-		android:layout_width="100dp"
-		android:layout_height="wrap_content"
-		android:id="@+id/customTest"/>
-</LinearLayout>
-<LinearLayout
-	android:layout_width="match_parent"
-	android:layout_height="match_parent">
-	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:id="@+id/saveText"/>
-</LinearLayout>
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_height="match_parent"
-	android:layout_width="match_parent"
-	android:gravity="center|bottom"
-	android:id="@+id/ly2">
-	<Button
-		android:layout_height="wrap_content"
-		android:layout_width="wrap_content"
-		android:text="@string/uninstall"
-		android:id="@+id/uninstall"/>
-</LinearLayout>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/ly1"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/customText"
+			android:id="@+id/textview"
+			android:layout_alignRight="@+id/customTest"
+			android:layout_alignEnd="@+id/customTest"
+			android:layout_alignLeft="@+id/customTest"
+			android:layout_alignStart="@+id/customTest"
+			android:gravity="center"/>
+
+		<EditText
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/customText"
+			android:layout_below="@id/textview"
+			android:hint="@string/fffde"
+			android:gravity="center"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/saveText"
+			android:text="@string/saveButton"
+			android:layout_below="@id/customText"
+			android:layout_alignRight="@id/customText"
+			android:layout_alignEnd="@id/customText"
+			android:layout_alignLeft="@id/customText"
+			android:layout_alignStart="@id/customText"/>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reText"
+            android:text="@string/reButton"
+            android:layout_below="@id/saveText"
+            android:layout_alignRight="@id/saveText"
+            android:layout_alignEnd="@id/saveText"
+            android:layout_alignLeft="@id/saveText"
+			android:layout_alignStart="@id/saveText"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:gravity="center|bottom">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/about"
+			android:id="@+id/about"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/uninstall"
+			android:id="@+id/uninstall"
+			android:layout_below="@id/about"
+            android:layout_alignRight="@id/about"
+            android:layout_alignEnd="@id/about"
+            android:layout_alignLeft="@id/about"
+			android:layout_alignStart="@id/about"/>
+
+	</RelativeLayout>
+
 </RelativeLayout>
+

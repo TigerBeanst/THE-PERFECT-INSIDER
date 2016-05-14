@@ -8,8 +8,8 @@ android {
         applicationId "com.jakting.fff"
         minSdkVersion 14
         targetSdkVersion 22
-        versionCode 4
-        versionName "7"
+        versionCode 5
+        versionName "49"
     }
 
     buildTypes {
@@ -20,6 +20,10 @@ android {
     }
 }
 
+repositories {
+    jcenter();
+}
+
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    provided 'de.robv.android.xposed:api:53'
 }
