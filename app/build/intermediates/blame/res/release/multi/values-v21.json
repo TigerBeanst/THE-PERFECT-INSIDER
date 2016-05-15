@@ -1,0 +1,85 @@
+[
+    {
+        "outputFile": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\build\\intermediates\\res\\merged\\release\\values-v21\\values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-v21\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 154,
+                        "endColumn": 45,
+                        "endOffset": 195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 46,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-v21\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 46,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 148,
+                    "endColumn": 50,
+                    "endOffset": 194
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-v21\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 103,
+                        "endColumn": 50,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 199,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 582
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 447
+                    }
+                }
+            }
+        ]
+    }
+]

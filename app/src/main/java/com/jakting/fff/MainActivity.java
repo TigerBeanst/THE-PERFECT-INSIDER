@@ -41,17 +41,18 @@ public class MainActivity extends Activity
         }
     }
     public void openAboutFFF(){
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        builder.setTitle("测试关于");
-        builder.setMessage("呵呵");
-        builder.setPositiveButton("确定", new DialogInterface.OnClickListener(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(R.string.about_menu);
+        builder.setMessage(R.string.about);
+        builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
 
-                @Override
-                public void onClick(DialogInterface p1, int p2)
-                {
-                    Toast.makeText(MainActivity.this,"FFFFFF！",Toast.LENGTH_LONG).show();
-                }
-            });
+            @Override
+            public void onClick(DialogInterface p1, int p2) {
+                Toast.makeText(MainActivity.this, "FFFFFF！", Toast.LENGTH_LONG).show();
+            }
+        });
+        AlertDialog dialog= builder.create();
+        dialog.show();
     }
     public void saveCustom(){
         findViewById(R.id.saveText).setOnClickListener(new View.OnClickListener() {

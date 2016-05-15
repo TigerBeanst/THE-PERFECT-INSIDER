@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fff">すべてがFになる</string>
+    <string name="fff_des">死、私の欲しい自由には。</string>
+    <string name="uninstall">アンインストール</string>
+    <string name="about">このモジュールはGermainZ開発のHodorモジュール\nカスタムテキストからkuroyukihime0構想</string>
+    <string name="customText">カスタマイズテキスト</string>
+    <string name="fffde">FFF</string>
+    <string name="saveButton">保存テキスト</string>
+    <string name="reButton">リセットテキスト</string>
+    <string name="emptyText">テキストを空にして！</string>
+    <string name="saveText1">改正された </string>
+    <string name="saveText2"> ！！起動モジュール後に再起動する！</string>
+    <string name="reText">リセットテキストをFFF完成！\n再起動後に発効する！</string>
+    <string name="about_menu">について</string>
+    <string name="ok">確定</string>
+</resources>

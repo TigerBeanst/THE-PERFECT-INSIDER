@@ -22,8 +22,9 @@
         <meta-data
             android:name="xposedminversion"
             android:value="2.0*" />
-        <meta-data android:name="xposeddescription" 
-            android:value="@string/fff_des" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="FFFFFFFFFFFFFFFFFFFFFFF"/>
         
     </application>
 

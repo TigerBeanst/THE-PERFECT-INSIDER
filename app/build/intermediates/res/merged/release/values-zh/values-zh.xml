@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">本模块源自GermainZ开发的Hodor模块\n自定义文本思路来自kuroyukihime0。</string>
+    <string name="about_menu">关于</string>
+    <string name="customText">自定义文本</string>
+    <string name="emptyText">文本为空！</string>
+    <string name="fff">全部成为F</string>
+    <string name="fff_des">死亡，才能通往我想要的自由。</string>
+    <string name="fffde">FFF</string>
+    <string name="ok">确定</string>
+    <string name="reButton">重置文本</string>
+    <string name="reText">重置文本为FFF完成！\n重启后生效！</string>
+    <string name="saveButton">保存文本</string>
+    <string name="saveText1">已修改为 </string>
+    <string name="saveText2"> ！激活模块后重启生效！</string>
+    <string name="uninstall">卸载</string>
+</resources>

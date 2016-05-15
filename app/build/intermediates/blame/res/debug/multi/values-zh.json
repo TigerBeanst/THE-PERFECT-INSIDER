@@ -1,0 +1,182 @@
+[
+    {
+        "outputFile": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\build\\intermediates\\res\\merged\\debug\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 82,
+                    "endOffset": 133
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 138,
+                    "endColumn": 41,
+                    "endOffset": 175
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 180,
+                    "endColumn": 44,
+                    "endOffset": 220
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 225,
+                    "endColumn": 43,
+                    "endOffset": 264
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 269,
+                    "endColumn": 37,
+                    "endOffset": 302
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 307,
+                    "endColumn": 50,
+                    "endOffset": 353
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 358,
+                    "endColumn": 37,
+                    "endOffset": 391
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 396,
+                    "endColumn": 33,
+                    "endOffset": 425
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 688,
+                        "endColumn": 33,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 430,
+                    "endColumn": 41,
+                    "endOffset": 467
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 472,
+                    "endColumn": 54,
+                    "endOffset": 522
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 527,
+                    "endColumn": 43,
+                    "endOffset": 566
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 571,
+                    "endColumn": 43,
+                    "endOffset": 610
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 615,
+                    "endColumn": 50,
+                    "endOffset": 661
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 666,
+                    "endColumn": 40,
+                    "endOffset": 702
+                },
+                "from": {
+                    "file": "D:\\HjtHjtHjt\\Java&Android\\THE-PERFECT-INSIDER\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            }
+        ]
+    }
+]

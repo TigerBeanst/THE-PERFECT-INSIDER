@@ -16,10 +16,10 @@
 			android:layout_height="wrap_content"
 			android:text="@string/customText"
 			android:id="@+id/textview"
-			android:layout_alignRight="@+id/customTest"
-			android:layout_alignEnd="@+id/customTest"
-			android:layout_alignLeft="@+id/customTest"
-			android:layout_alignStart="@+id/customTest"
+			android:layout_alignRight="@+id/customText"
+			android:layout_alignEnd="@+id/customText"
+			android:layout_alignLeft="@+id/customText"
+			android:layout_alignStart="@+id/customText"
 			android:gravity="center"/>
 
 		<EditText
@@ -58,23 +58,11 @@
 		android:layout_height="match_parent"
 		android:layout_width="match_parent"
 		android:gravity="center|bottom">
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/about"
-			android:id="@+id/about"/>
-
 		<Button
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
 			android:text="@string/uninstall"
-			android:id="@+id/uninstall"
-			android:layout_below="@id/about"
-            android:layout_alignRight="@id/about"
-            android:layout_alignEnd="@id/about"
-            android:layout_alignLeft="@id/about"
-			android:layout_alignStart="@id/about"/>
+			android:id="@+id/uninstall"/>
 
 	</RelativeLayout>
 
