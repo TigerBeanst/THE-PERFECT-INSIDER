@@ -1,0 +1,51 @@
+body{
+    background-color: #eee;}
+input {
+    background-color: #FFF;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.87);
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    height: 36px!important;
+    padding: 0 26px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-image: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: inherit;
+    letter-spacing: .03em;
+    position: relative;
+    overflow: hidden;
+    animation-duration: 0.0001s;
+    animation-name: mui-btn-inserted;
+}
+
+.main_div {
+    padding: 15px!important;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #FFF;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.step2_zsdx {
+    padding: 15px!important;
+    margin-bottom: 20px;
+    border: none!important;
+    background-color: #f8f8f8!important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 2px 0 rgba(0,0,0,.12);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
